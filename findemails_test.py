@@ -14,6 +14,7 @@ csvFile = "C:/Users/vpatil/Desktop/re2.csv"
 
 queue = Queue.Queue()
 
+# Thread class
 class ThreadUrl(threading.Thread):
     def __init__(self, queue):
         threading.Thread.__init__(self)
