@@ -10,6 +10,7 @@ csvFile = "C:/Users/vpatil/Desktop/google_search_output1_3333.csv"
 import MySQLdb
 import Queue
 
+#creat queue
 queue = Queue.Queue()
 class ThreadUrl(threading.Thread):
 
